@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int num = 100;
+        int num = 50;
         System.out.println(num);
 
         num = increment(num);
