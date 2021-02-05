@@ -3,12 +3,18 @@ public class Main {
         int num = 100;
         System.out.println(num);
 
-        int num2 = increment(num);
-        System.out.println(num2);
-        System.out.println(increment(num2));
+        num = increment(num);
+        System.out.printf("Increment by 1\n%d",num);
+        num = decrement(num);
+        System.out.printf("\nDecrement by 1\n%d",num);
+
     }
 
     public static int increment(int number){
         return ++number;
+    }
+
+    public static int decrement(int number){
+        return --number;
     }
 }
